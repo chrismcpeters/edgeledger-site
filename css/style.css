@@ -185,3 +185,24 @@ img {
 .form-control ::placeholder {
     color: #cbcbcb;
 }
+
+.footer {
+   display: flex; 
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   height: 200px;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer a:hover {
+    color: #28a745;
+}
+
+.footer .social > * {
+    margin: 15px;
+}
